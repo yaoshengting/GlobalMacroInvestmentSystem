@@ -1,0 +1,14 @@
+targets:
+  usd_cash: 0.20
+  global_technology: 0.25
+  global_equity: 0.20
+  china_equity: 0.10
+  bonds: 0.10
+  gold: 0.10
+  rmb_cash: 0.05
+rules:
+  rebalance_frequency: monthly
+  max_single_theme_weight: 0.30
+  minimum_cash_reserve: 0.15
+  auto_trade: false
+

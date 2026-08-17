@@ -1,0 +1,58 @@
+hypotheses:
+  ai_supercycle:
+    status: active
+    confidence: medium_high
+    current_view: Global AI capital expenditure is still expanding, while markets are shifting from indiscriminate gains toward filtering by earnings realization and return on capital.
+    supporting_evidence: [hyperscaler_capex_intent, accelerator_and_infrastructure_demand]
+    contrary_evidence: [valuation_concentration, uncertain_end_customer_monetization]
+    falsification_conditions: [sustained_broad_capex_cuts, multi_quarter_utilization_decline, persistent_returns_below_cost_of_capital]
+    last_updated: 2026-08-02
+  china_two_speed_economy:
+    status: active
+    confidence: medium
+    current_view: AI, exports, and advanced manufacturing are relatively strong while property, consumption, and traditional credit demand are relatively weak.
+    supporting_evidence: [manufacturing_upgrade, export_competitiveness]
+    contrary_evidence: [external_trade_restrictions, uneven_private_demand]
+    falsification_conditions: [broad_property_and_consumption_reacceleration, sustained_advanced_manufacturing_contraction]
+    last_updated: 2026-08-02
+  china_low_rate_platform:
+    status: active
+    confidence: medium
+    current_view: Weak private credit demand and ample banking-system liquidity support a persistent low-rate platform in China.
+    supporting_evidence: [soft_private_credit_demand, accommodative_liquidity]
+    contrary_evidence: [currency_constraint, fiscal_supply_pressure]
+    falsification_conditions: [durable_private_credit_acceleration, persistent_inflation_pressure, sustained_policy_tightening]
+    last_updated: 2026-08-02
+  china_consumption_rebalancing:
+    status: active
+    confidence: medium
+    current_view: Consumption has higher strategic importance, but policy remains more oriented toward supply, public services, and industry-led transmission than large direct household transfers.
+    supporting_evidence: [service_support, industrial_policy_transmission]
+    contrary_evidence: [potential_household_support_expansion]
+    falsification_conditions: [large_recurring_direct_household_transfers, sustained_consumption_led_nominal_growth]
+    last_updated: 2026-08-02
+  rmb_managed_strength:
+    status: active
+    confidence: medium
+    current_view: The RMB is managed for stability with a mild strength preference, but substantial one-way appreciation is not the policy objective.
+    supporting_evidence: [stability_signaling, managed_fixing_framework]
+    contrary_evidence: [growth_differential, capital_flow_volatility]
+    falsification_conditions: [explicit_free_float_shift, persistent_unopposed_one_way_move]
+    last_updated: 2026-08-02
+  middle_east_energy_risk:
+    status: active
+    confidence: medium
+    current_view: Middle East risk can repeatedly escalate and mainly reaches risk assets through oil, inflation, and US Treasury yields.
+    supporting_evidence: [shipping_chokepoint_risk, spare_capacity_uncertainty]
+    contrary_evidence: [rapid_deescalation, demand_destruction]
+    falsification_conditions: [durable_security_settlement, sustained_unaffected_energy_flows_during_escalation]
+    last_updated: 2026-08-02
+  style_rotation:
+    status: active
+    confidence: medium
+    current_view: Growth and value are complements rather than a binary choice; technology supplies long-term growth while banks and dividend assets can reduce portfolio volatility.
+    supporting_evidence: [different_factor_exposures, diversification_benefit]
+    contrary_evidence: [correlation_regime_shift, financial_sector_credit_losses]
+    falsification_conditions: [persistent_diversification_failure, structural_earnings_break_in_either_sleeve]
+    last_updated: 2026-08-02
+

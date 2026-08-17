@@ -1,0 +1,11 @@
+# Illustrative thresholds only. They are not investment advice and require later calibration.
+market_alerts:
+  us_10y: {warning_above: 4.50, opportunity_below: 3.90}
+  brent: {elevated_risk_above: 90, crisis_risk_above: 110}
+  vix: {elevated_above: 25, crisis_above: 40}
+drawdown_alerts:
+  qqq: {level_1: -0.08, level_2: -0.12, level_3: -0.18, level_4: -0.25}
+  soxx: {level_1: -0.10, level_2: -0.15, level_3: -0.22, level_4: -0.30}
+currency_alerts:
+  usdcny: {stronger_rmb_level_1: 6.70, stronger_rmb_level_2: 6.50, weaker_rmb_level_1: 7.00, weaker_rmb_level_2: 7.20}
+

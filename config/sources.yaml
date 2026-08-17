@@ -1,0 +1,15 @@
+policy: "Tier 4 sources may provide leads, charts, opinions, or quick lookup only; they cannot be the sole evidence for an important investment conclusion."
+tiers:
+  tier_1:
+    role: primary_evidence
+    sources: [official_governments, central_banks, statistics_agencies, company_announcements, financial_statements, regulatory_filings]
+  tier_2:
+    role: professional_news_confirmation
+    sources: [Reuters, Bloomberg, Financial Times, Wall Street Journal]
+  tier_3:
+    role: institutional_analysis
+    sources: [Goldman Sachs, Morgan Stanley, Nomura, Citi, UBS, Barclays, CICC]
+  tier_4:
+    role: leads_and_context_only
+    sources: [Seeking Alpha, Finviz, TradingView, DATAROMA, Macrotrends]
+

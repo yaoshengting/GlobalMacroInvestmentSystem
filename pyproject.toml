@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gmios"
+version = "0.1.0"
+description = "Personal global macro research and investment decision support system"
+requires-python = ">=3.12"
+dependencies = ["PyYAML>=6.0.2,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9"]
+
+[project.scripts]
+gmios = "gmios.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gmios"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

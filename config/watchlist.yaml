@@ -1,0 +1,34 @@
+macro:
+  us:
+    - {id: us_10y, name: US 10-Year Treasury Yield, priority: critical, category: rates}
+    - {id: us_2y, name: US 2-Year Treasury Yield, priority: high, category: rates}
+    - {id: dxy, name: US Dollar Index, priority: critical, category: currency}
+    - {id: vix, name: VIX, priority: high, category: volatility}
+    - {id: brent, name: Brent Crude Oil, priority: critical, category: commodity}
+    - {id: gold, name: Gold, priority: critical, category: commodity}
+  china:
+    - {id: dr001, name: DR001, priority: critical, category: liquidity}
+    - {id: dr007, name: DR007, priority: high, category: liquidity}
+    - {id: cgb_10y, name: China 10-Year Government Bond Yield, priority: critical, category: rates}
+    - {id: usdcny, name: USD CNY, priority: critical, category: currency}
+    - {id: usdcnh, name: USD CNH, priority: critical, category: currency}
+    - {id: social_financing, name: Total Social Financing, priority: critical, category: credit}
+    - {id: china_pmi, name: China Manufacturing PMI, priority: critical, category: growth}
+    - {id: china_cpi, name: China CPI, priority: high, category: inflation}
+    - {id: china_ppi, name: China PPI, priority: high, category: inflation}
+markets:
+  us_equity:
+    - {ticker: SPY, name: S&P 500 ETF, role: broad_market}
+    - {ticker: QQQ, name: Nasdaq 100 ETF, role: growth}
+    - {ticker: SOXX, name: Semiconductor ETF, role: semiconductor}
+    - {ticker: XLF, name: Financial Sector ETF, role: value}
+    - {ticker: XLV, name: Health Care Sector ETF, role: defensive}
+  china_equity:
+    - {ticker: ASHR, name: China A-Shares ETF, role: broad_market}
+    - {ticker: KWEB, name: China Internet ETF, role: growth}
+themes:
+  ai: [gpu, hbm, advanced_packaging, data_center, power_grid, liquid_cooling, optical_module, pcb, mlcc, power_semiconductor]
+funds:
+  - {id: blackrock_world_technology, name: BlackRock World Technology Fund, currency: USD, category: global_technology}
+  - {id: fidelity_global_technology, name: Fidelity Global Technology Fund, currency: USD, category: global_technology}
+

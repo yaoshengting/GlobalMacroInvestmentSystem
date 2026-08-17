@@ -1,0 +1,5 @@
+as_of,symbol,asset_class,currency,weight
+2026-08-02,EXAMPLE_TECH_FUND,equity_fund,USD,0.25
+2026-08-02,EXAMPLE_GOLD_FUND,commodity_fund,USD,0.10
+2026-08-02,USD_CASH,cash,USD,0.20
+
